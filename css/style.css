@@ -40,7 +40,8 @@ nav{
 }
 
 .buttons_container{
-    margin-left: 50px;
+    width: 90%;
+    margin: auto;
 }
 
 .buttons_container div{
@@ -69,9 +70,46 @@ nav{
 
 
 section{
-    height: 400px;
     background-color: rgb(255, 255, 255);
     border-radius: 0 0 7px 7px ;
+}
+
+#section_container{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.section_div{
+    margin-bottom: 30px;
+}
+
+.section_div h3{
+    color: #434851;
+}
+
+.section_div div{
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.section_div h3::before{
+    content: "\2714";
+    color: #434851;
+}
+
+.check_row::before{
+    content: "\2713";
+    color: #76DAC9;
+    border:1px solid #76DAC9;
+    border-radius: 50%;
+}
+
+.cross_row::before{
+    content: "\2715";
+    color: #FA2607;
+    border:1px solid #FA2607;
+    border-radius: 50%;
 }
 
 
