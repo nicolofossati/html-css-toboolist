@@ -39,6 +39,35 @@ nav{
 
 }
 
+.buttons_container{
+    margin-left: 50px;
+}
+
+.buttons_container div{
+    border-radius: 5px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 7px;
+    margin-top: 20px;
+}
+
+#button_one{
+    background-color: #38AAFF;
+    border-color: #38AAFF;
+}
+
+.button_span{
+    vertical-align: middle;
+}
+
+#button_two{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #bdc1c3;
+}
+
+
+
 section{
     height: 400px;
     background-color: rgb(255, 255, 255);
