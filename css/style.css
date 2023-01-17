@@ -6,6 +6,7 @@
 
 body{
     background-color: #38AAFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -112,8 +113,36 @@ section{
     border-radius: 50%;
 }
 
+.span_type{
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 5px;
+}
 
+.editorial{
+    background-color: #34A9ED;
+}
 
+.q1_goals{
+    background-color: #AB5DE6;
+}
+
+.recruiting{
+    background-color: #2CC6AB;
+}
+
+.mobile{
+    background-color: #FA9B00;
+}
+
+.website{
+    background-color: #EC4A9D;
+}
+
+.sales{
+    background-color: #A3D114;
+}
 
 /*  #38AAFF  background
     #76DAC9  check  2713   2714  bold check mark   
