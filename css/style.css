@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: azure;
+    padding: 10px 0 10px 40px;
+}
+
+header img{
+    height: 80px;
+    vertical-align: middle;
+}
+
+header h1{
+    font-size: 65px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*  #38AAFF  background
+    #76DAC9  check  2713   2714  bold check mark   
+    #FA2607  cross  2715
+*/
