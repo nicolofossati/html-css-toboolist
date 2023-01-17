@@ -4,11 +4,21 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #38AAFF;
+}
+
 header{
     height: 100px;
     background-color: azure;
     padding: 10px 0 10px 40px;
 }
+
+main{
+    width: 60%;
+    margin: 50px auto 100px auto;
+}
+
 
 header img{
     height: 80px;
@@ -20,6 +30,23 @@ header h1{
     display: inline-block;
     vertical-align: middle;
 }
+
+nav{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px 7px 0 0;
+    border-bottom: 2px solid #F6F8F9;
+
+}
+
+section{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 7px 7px ;
+}
+
+
+
 
 /*  #38AAFF  background
     #76DAC9  check  2713   2714  bold check mark   
