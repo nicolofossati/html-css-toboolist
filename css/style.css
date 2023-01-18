@@ -5,13 +5,13 @@
 }
 
 body{
-    background-color: #38AAFF;
+    background-color: #F6F8F9;
     font-family: 'Roboto', sans-serif;
 }
 
 header{
     height: 100px;
-    background-color: azure;
+    background-color: white;
     padding: 10px 0 10px 40px;
 }
 
@@ -87,11 +87,13 @@ section{
 
 .section_div h3{
     color: #434851;
+    font-size: 25px;
 }
 
 .section_div div{
-    margin-top: 7px;
+    margin-top: 25px;
     font-size: 20px;
+    color: #59595b;
 }
 
 .section_div h3::before{
@@ -99,18 +101,25 @@ section{
     color: #434851;
 }
 
+.generic_row::before{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+
 .check_row::before{
     content: "\2713";
     color: #76DAC9;
-    border:1px solid #76DAC9;
-    border-radius: 50%;
+    border:2px solid #76DAC9;
 }
 
 .cross_row::before{
     content: "\2715";
     color: #FA2607;
-    border:1px solid #FA2607;
-    border-radius: 50%;
+    border:2px solid #FA2607;
 }
 
 .span_type{
