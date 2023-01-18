@@ -33,42 +33,36 @@ header h1{
 }
 
 nav{
-    height: 60px;
+    height: 70px;
     background-color: rgb(255, 255, 255);
     border-radius: 7px 7px 0 0;
     border-bottom: 2px solid #F6F8F9;
-
 }
 
 .buttons_container{
     width: 90%;
     margin: auto;
+    padding: 20px 0 16px 0;
 }
 
-.buttons_container div{
-    border-radius: 5px;
-    height: 25px;
-    display: inline-block;
+.bttn{
     vertical-align: middle;
-    padding: 0 7px;
-    margin-top: 20px;
+    border-radius: 4px;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 5px;
 }
 
-#button_one{
+.task_bttn{
     background-color: #38AAFF;
-    border-color: #38AAFF;
+    border: none;
 }
 
-.button_span{
-    vertical-align: middle;
-}
-
-#button_two{
+.section_bttn{
     background-color: rgb(255, 255, 255);
     border: 1px solid #bdc1c3;
 }
-
-
 
 section{
     background-color: rgb(255, 255, 255);
