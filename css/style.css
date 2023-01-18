@@ -93,6 +93,7 @@ section{
 .section_div h3::before{
     content: "\2714";
     color: #434851;
+    margin-right: 10px;
 }
 
 .generic_row::before{
